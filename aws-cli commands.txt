@@ -1,0 +1,10 @@
+1. Create the S3 bucket: aws s3 mb s3://omokolade-portfolio-site
+2. Enable static website hosting: aws s3 website s3://omokolade-portfolio-site/ --index-document index.html
+3. Disable "Block Public Access" for the Bucket: 
+    aws s3api put-public-access-block \
+  --bucket omokolade-portfolio-site \
+  --public-access-block-configuration 'BlockPublicAcls=false,IgnorePublicAcls=false,BlockPublicPolicy=false,RestrictPublicBuckets=false'
+4. Set the public-read bucket policy: 
+    aws s3api put-bucket-policy \
+  --bucket omokolade-portfolio-site \
+  --policy file://s3-policy.json
