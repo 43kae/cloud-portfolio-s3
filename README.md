@@ -8,7 +8,7 @@ This is a personal portfolio website hosted on **Amazon S3** using static site h
 
 ## 🚀 Live Demo
 
-🔗 [Visit Website](http://omokolade-portfolio-site.s3-website-us-east-1.amazonaws.com)
+🔗 [Visit Website](http://43kae.xyz.s3-website-us-east-1.amazonaws.com)
 
 ---
 
