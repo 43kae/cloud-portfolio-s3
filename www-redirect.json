@@ -1,0 +1,6 @@
+{
+  "RedirectAllRequestsTo": {
+    "HostName": "43kae.xyz",
+    "Protocol": "http"
+  }
+}
